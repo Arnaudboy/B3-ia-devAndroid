@@ -26,6 +26,14 @@
             android:name=".MainActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ProduitsActivity"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>

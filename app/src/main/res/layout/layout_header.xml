@@ -13,14 +13,15 @@
         android:textSize="32sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:text="EPSI"
+        android:text="Text"
         />
 
-    <!--<ImageView
+    <ImageView
         android:id="@+id/imageViewBack"
         android:visibility="gone"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@color/transparent"
-        app:srcCompat="@drawable/icon_back" />-->
+        app:srcCompat="@drawable/icon_back" />
+
 </RelativeLayout>
