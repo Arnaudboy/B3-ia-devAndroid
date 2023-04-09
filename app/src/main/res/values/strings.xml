@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">B3 Arnaud Quentin</string>
     <string name="splash">SPLASH</string>
+    <string name="btn_info">Info</string>
+    <string name="btn_products">Produits</string>
+    <string name="txt_title_epsi">EPSI</string>
+
 </resources>
