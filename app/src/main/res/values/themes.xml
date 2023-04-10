@@ -38,4 +38,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="text" >
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20dp</item>
+    </style>
 </resources>

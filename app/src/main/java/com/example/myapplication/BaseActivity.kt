@@ -22,7 +22,7 @@ open class BaseActivity: AppCompatActivity() {
         val backLogo=findViewById<ImageView>(R.id.imageViewBack)
         backLogo.visibility= View.VISIBLE
         backLogo.setOnClickListener(View.OnClickListener {
-            finish()
+            this.finish()
         })
     }
 }
