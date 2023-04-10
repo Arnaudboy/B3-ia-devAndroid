@@ -34,10 +34,12 @@ class GroupMemberAdapter(val groupMembers: ArrayList<GroupMember>) :
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textButton = view.findViewById<TextView>(R.id.groupMemberInfo)
+        val t = view.findViewById<LinearLayout>(R.id.layoutContent)
+        val con = t.context
         init {
-            view.setOnClickListener(View.OnClickListener {
-                val newIntent = Intent(view.context, StudentActivity::class.java)
-                view.context.startActivity(newIntent)
+            t.setOnClickListener(View.OnClickListener {
+                val newIntent = Intent(con, StudentActivity::class.java)
+                con.startActivity(newIntent)
             })
         }
 
