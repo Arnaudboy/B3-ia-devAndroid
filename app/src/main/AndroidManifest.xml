@@ -38,6 +38,14 @@
             android:name=".StudentActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".ProductListActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ProductActivity"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>
