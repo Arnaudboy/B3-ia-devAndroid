@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="120dp"
     android:orientation="vertical"
-    android:id="@+id/recyclerViewProductListLayout">
+    android:id="@+id/recyclerViewProductListLayout"
+    android:layout_marginBottom="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
