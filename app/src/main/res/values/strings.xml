@@ -4,5 +4,8 @@
     <string name="btn_info">Info</string>
     <string name="btn_products">Produits</string>
     <string name="txt_title_epsi">EPSI</string>
-
+    <string name="logo">Group Member logo</string>
+    <string name="studentInfo">info Etudiant</string>
+    <string name="group">B3-IA</string>
+    <string name="url">https://www.epsi.fr</string>
 </resources>

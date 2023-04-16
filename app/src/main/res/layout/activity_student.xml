@@ -15,13 +15,13 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView"
                 style="@style/text"
-                android:contentDescription="logo"
+                android:contentDescription="@string/logo"
                 android:layout_width="wrap_content"
                 android:layout_height="250dp"
                 android:layout_marginTop="80dp"
@@ -29,24 +29,40 @@
                 app:srcCompat="@drawable/arnaud_logo" />
 
             <TextView
+                android:id="@+id/studentInfoString"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/text"
-                android:text="info Etudiant" />
+                android:text="@string/studentInfo" />
 
             <TextView
                 android:id="@+id/firstLastName"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                style="@style/text"
-                android:text="name" />
+                style="@style/text" />
 
             <TextView
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                style="@style/text" />
+
+            <TextView
+                android:id="@+id/groupString"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 style="@style/text"
-                android:text="email" />
+                android:text="@string/group" />
+
+            <Button
+                android:id="@+id/url_school"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="44dp"
+                android:clickable="true"
+                android:focusable="auto"
+                android:linksClickable="true"
+                android:text="@string/url" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

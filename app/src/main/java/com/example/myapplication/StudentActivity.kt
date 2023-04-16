@@ -1,9 +1,11 @@
 package com.example.myapplication
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
@@ -27,5 +29,13 @@ class StudentActivity : BaseActivity() {
 
         val email = findViewById<TextView>(R.id.email)
         email.text = intent.getStringExtra("email")
+
+        val button = findViewById<Button>(R.id.url_school)
+        button.setOnClickListener {
+            val url = getString(R.string.url)
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse(url)
+            startActivity(intent)
+        }
     }
 }
